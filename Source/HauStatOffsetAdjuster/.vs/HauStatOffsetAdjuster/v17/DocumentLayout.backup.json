@@ -1,0 +1,76 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Doa\\Desktop\\Game\\Rimworld\\RimWorld.v1.5.4297\\Mods\\HauStatOffsetGene\\Source\\HauStatOffsetAdjuster\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0DA065DA-8261-475F-9B54-F5CBAEF1D472}|HauStatOffsetAdjuster\\HauStatOffsetAdjuster.csproj|c:\\users\\doa\\desktop\\game\\rimworld\\rimworld.v1.5.4297\\mods\\haustatoffsetgene\\source\\haustatoffsetadjuster\\haustatoffsetadjuster\\repairskinmodsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DA065DA-8261-475F-9B54-F5CBAEF1D472}|HauStatOffsetAdjuster\\HauStatOffsetAdjuster.csproj|solutionrelative:haustatoffsetadjuster\\repairskinmodsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DA065DA-8261-475F-9B54-F5CBAEF1D472}|HauStatOffsetAdjuster\\HauStatOffsetAdjuster.csproj|c:\\users\\doa\\desktop\\game\\rimworld\\rimworld.v1.5.4297\\mods\\haustatoffsetgene\\source\\haustatoffsetadjuster\\haustatoffsetadjuster\\gene_repairskin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DA065DA-8261-475F-9B54-F5CBAEF1D472}|HauStatOffsetAdjuster\\HauStatOffsetAdjuster.csproj|solutionrelative:haustatoffsetadjuster\\gene_repairskin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|HauStatOffsetAdjuster||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DA065DA-8261-475F-9B54-F5CBAEF1D472}|HauStatOffsetAdjuster\\HauStatOffsetAdjuster.csproj|c:\\users\\doa\\desktop\\game\\rimworld\\rimworld.v1.5.4297\\mods\\haustatoffsetgene\\source\\haustatoffsetadjuster\\haustatoffsetadjuster\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|5e9a8ac2-4f34-4521-858f-4c248ba31532"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RepairSkinModSettings.cs",
+              "DocumentMoniker": "C:\\Users\\Doa\\Desktop\\Game\\Rimworld\\RimWorld.v1.5.4297\\Mods\\HauStatOffsetGene\\Source\\HauStatOffsetAdjuster\\HauStatOffsetAdjuster\\RepairSkinModSettings.cs",
+              "RelativeDocumentMoniker": "HauStatOffsetAdjuster\\RepairSkinModSettings.cs",
+              "ToolTip": "C:\\Users\\Doa\\Desktop\\Game\\Rimworld\\RimWorld.v1.5.4297\\Mods\\HauStatOffsetGene\\Source\\HauStatOffsetAdjuster\\HauStatOffsetAdjuster\\RepairSkinModSettings.cs",
+              "RelativeToolTip": "HauStatOffsetAdjuster\\RepairSkinModSettings.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAcwC8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T00:57:16.976Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Gene_RepairSkin.cs",
+              "DocumentMoniker": "C:\\Users\\Doa\\Desktop\\Game\\Rimworld\\RimWorld.v1.5.4297\\Mods\\HauStatOffsetGene\\Source\\HauStatOffsetAdjuster\\HauStatOffsetAdjuster\\Gene_RepairSkin.cs",
+              "RelativeDocumentMoniker": "HauStatOffsetAdjuster\\Gene_RepairSkin.cs",
+              "ToolTip": "C:\\Users\\Doa\\Desktop\\Game\\Rimworld\\RimWorld.v1.5.4297\\Mods\\HauStatOffsetGene\\Source\\HauStatOffsetAdjuster\\HauStatOffsetAdjuster\\Gene_RepairSkin.cs",
+              "RelativeToolTip": "HauStatOffsetAdjuster\\Gene_RepairSkin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAABnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T11:56:41.077Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HauStatOffsetAdjuster",
+              "DocumentMoniker": "C:\\Users\\Doa\\Desktop\\Game\\Rimworld\\RimWorld.v1.5.4297\\Mods\\HauStatOffsetGene\\Source\\HauStatOffsetAdjuster\\HauStatOffsetAdjuster\\HauStatOffsetAdjuster.csproj",
+              "RelativeDocumentMoniker": "HauStatOffsetAdjuster\\HauStatOffsetAdjuster.csproj",
+              "ToolTip": "C:\\Users\\Doa\\Desktop\\Game\\Rimworld\\RimWorld.v1.5.4297\\Mods\\HauStatOffsetGene\\Source\\HauStatOffsetAdjuster\\HauStatOffsetAdjuster\\HauStatOffsetAdjuster.csproj",
+              "RelativeToolTip": "HauStatOffsetAdjuster\\HauStatOffsetAdjuster.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-03-13T11:59:10.953Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

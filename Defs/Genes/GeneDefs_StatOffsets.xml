@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <GeneCategoryDef>
+    <defName>HauStatOffsetAdjuster</defName>
+    <label>Stat offset adjuster</label>
+    <displayPriorityInXenotype>995</displayPriorityInXenotype>
+  </GeneCategoryDef>
+
+  <!-- Utility -->
+  <GeneDef>
+    <displayCategory>HauStatOffsetAdjuster</displayCategory>
+    <description>No description.</description>
+    <biostatCpx>0</biostatCpx>
+    <biostatMet>-1</biostatMet>
+    <selectionWeight>0</selectionWeight>
+    <displayOrderInCategory>0</displayOrderInCategory>
+    <iconPath>UI/Icons/Genes/Gene_NonSenescent</iconPath>
+    <defName>HauStatOffsetAdjuster_Utility</defName>
+    <label>Utility stat gene</label>
+    <labelShortAdj>Utility</labelShortAdj>
+    <statFactors>
+      <Flammability>0</Flammability>
+      <RawNutritionFactor>24</RawNutritionFactor>
+      <LifespanFactor>100</LifespanFactor>
+      <CertaintyLossFactor>0.05</CertaintyLossFactor>
+      <JoyFallRateFactor>0.05</JoyFallRateFactor>
+      <FoodPoisonChance>0</FoodPoisonChance>
+      <CancerRate>0</CancerRate>
+      <Radiation MayRequire="Dubwise.Rimatomics">0</Radiation>
+    </statFactors>
+    <statOffsets>
+      <FilthRate>-0.99</FilthRate>
+      <!-- Carrying -->
+      <CarryingCapacity>1000</CarryingCapacity>
+      <VEF_MassCarryCapacity MayRequire="oskarpotocki.vanillafactionsexpanded.core">12000</VEF_MassCarryCapacity>
+      <!-- Moving -->
+      <MoveSpeed>48</MoveSpeed>
+      <CrawlSpeed>12</CrawlSpeed>
+      <!-- Healing -->
+      <InjuryHealingFactor>500</InjuryHealingFactor>
+      <!-- Enviroment resistance -->
+      <ToxicResistance>12</ToxicResistance>
+      <ToxicEnvironmentResistance>12</ToxicEnvironmentResistance>
+      <ComfyTemperatureMin>-1200</ComfyTemperatureMin>
+      <ComfyTemperatureMax>1800</ComfyTemperatureMax>
+      <ImmunityGainSpeedFactor>12</ImmunityGainSpeedFactor>
+      <ImmunityGainSpeed>12</ImmunityGainSpeed>
+      <HeatNullNaniteResistance MayRequire="BlackMarket420.KraltechIndustries">1</HeatNullNaniteResistance>
+      <HeatNullNaniteEnvironmentResistance MayRequire="BlackMarket420.KraltechIndustries">1</HeatNullNaniteEnvironmentResistance>
+      <ColdNullNaniteResistance MayRequire="BlackMarket420.KraltechIndustries">1</ColdNullNaniteResistance>
+      <ColdNullNaniteEnvironmentResistance MayRequire="BlackMarket420.KraltechIndustries">1</ColdNullNaniteEnvironmentResistance>
+      <RadiationResistance MayRequire="BlackMarket420.KraltechIndustries">1</RadiationResistance>
+      <RadiationEnvironmentResistance MayRequire="BlackMarket420.KraltechIndustries">1</RadiationEnvironmentResistance>
+      <AntiOrgToxinResistance MayRequire="BlackMarket420.KraltechIndustries">1</AntiOrgToxinResistance>
+      <AntiOrgToxinEnvironmentResistance MayRequire="BlackMarket420.KraltechIndustries">1</AntiOrgToxinEnvironmentResistance>
+      <RageVirusResistance MayRequire="BlackMarket420.KraltechIndustries">1</RageVirusResistance>
+      <RageVirusEnvironmentResistance MayRequire="BlackMarket420.KraltechIndustries">1</RageVirusEnvironmentResistance>
+      <DecompressionResistance MayRequire="kentington.saveourship2">1</DecompressionResistance>
+      <HypoxiaResistance MayRequire="kentington.saveourship2">1</HypoxiaResistance>
+      <!-- Mood -->
+      <MentalBreakThreshold>-0.999</MentalBreakThreshold>
+      <PainShockThreshold>1</PainShockThreshold>
+      <!-- Rest sleep -->
+      <RestRateMultiplier>12</RestRateMultiplier>
+      <RestFallRateFactor>-0.95</RestFallRateFactor>
+      <!-- Beauty -->
+      <PawnBeauty>64</PawnBeauty>
+      <!-- Hunger -->
+      <MaxNutrition>35</MaxNutrition>
+      <ForagedNutritionPerDay>48</ForagedNutritionPerDay>
+      <EatingSpeed>4</EatingSpeed>
+      <BedHungerRateFactor>-0.99</BedHungerRateFactor>
+
+    </statOffsets>
+  </GeneDef>
+
+  <!-- Psychic -->
+  <GeneDef>
+    <displayCategory>HauStatOffsetAdjuster</displayCategory>
+    <description>No description.</description>
+    <biostatCpx>0</biostatCpx>
+    <biostatMet>-1</biostatMet>
+    <selectionWeight>0</selectionWeight>
+    <displayOrderInCategory>1</displayOrderInCategory>
+    <iconPath>UI/Icons/Genes/Gene_EnhancedPsychicAbility</iconPath>
+    <defName>HauStatOffsetAdjuster_Psychic</defName>
+    <label>Psychic stat gene</label>
+    <labelShortAdj>Psychic</labelShortAdj>
+    <statFactors>
+      <PsychicEntropyMax>24</PsychicEntropyMax>
+      <PsychicEntropyGain>0.01</PsychicEntropyGain>
+      <VPE_PsyfocusCostFactor MayRequire="VanillaExpanded.VPsycastsE">0.05</VPE_PsyfocusCostFactor>
+    </statFactors>
+    <statOffsets>
+      <MeditationFocusGain>64</MeditationFocusGain>
+      <PsychicEntropyRecoveryRate>96</PsychicEntropyRecoveryRate>
+      <PsychicSensitivity>1</PsychicSensitivity>
+    </statOffsets>
+  </GeneDef>
+
+  <!-- Work -->
+  <GeneDef>
+    <displayCategory>HauStatOffsetAdjuster</displayCategory>
+    <description>No description.</description>
+    <biostatCpx>0</biostatCpx>
+    <biostatMet>-1</biostatMet>
+    <selectionWeight>0</selectionWeight>
+    <displayOrderInCategory>2</displayOrderInCategory>
+    <iconPath>UI/Icons/Genes/Gene_NakedSpeed</iconPath>
+    <defName>HauStatOffsetAdjuster_Work</defName>
+    <label>Work stat gene</label>
+    <labelShortAdj>Work</labelShortAdj>
+    <statFactors>
+      <TameAnimalChance>16</TameAnimalChance>
+      <TrainAnimalChance>16</TrainAnimalChance>
+      <DrugHarvestYield>5</DrugHarvestYield>
+      <AnimalGatherYield>5</AnimalGatherYield>
+      <ButcheryFleshEfficiency>5</ButcheryFleshEfficiency>
+      <ButcheryMechanoidEfficiency>5</ButcheryMechanoidEfficiency>
+      <SocialIdeoSpreadFrequencyFactor>128</SocialIdeoSpreadFrequencyFactor>
+    </statFactors>
+    <statOffsets>
+      <!-- General work speed -->
+      <WorkSpeedGlobal>32</WorkSpeedGlobal>
+      <WorkTableWorkSpeedFactor>6</WorkTableWorkSpeedFactor>
+      <GeneralLaborSpeed>1</GeneralLaborSpeed>
+      <!-- Specific work speed -->
+      <ConstructionSpeed>2</ConstructionSpeed>
+      <DrugSynthesisSpeed>1</DrugSynthesisSpeed>
+      <SmoothingSpeed>1</SmoothingSpeed>
+      <PruningSpeed>2</PruningSpeed>
+      <SmeltingSpeed>2</SmeltingSpeed>
+      <PlantWorkSpeed>0.5</PlantWorkSpeed>
+      <DrugCookingSpeed>4</DrugCookingSpeed>
+      <DeepDrillingSpeed>2</DeepDrillingSpeed>
+      <MiningSpeed>2</MiningSpeed>
+      <ResearchSpeedFactor>72</ResearchSpeedFactor>
+      <AnimalGatherSpeed>0.5</AnimalGatherSpeed>
+      <CookSpeed>24</CookSpeed>
+      <CleaningSpeed>64</CleaningSpeed>
+      <ReadingSpeed>16</ReadingSpeed>
+
+      <ConstructSuccessChance>1</ConstructSuccessChance>
+      <FixBrokenDownBuildingSuccessChance>1</FixBrokenDownBuildingSuccessChance>
+      <MiningYield>12</MiningYield>
+      <PlantHarvestYield>12</PlantHarvestYield>
+      <HuntingStealth>32</HuntingStealth>
+      <!-- Medical work -->
+      <SurgerySuccessChanceFactor>12</SurgerySuccessChanceFactor>
+      <MedicalSurgerySuccessChance>12</MedicalSurgerySuccessChance>
+      <MedicalOperationSpeed>2</MedicalOperationSpeed>
+      <MedicalTendSpeed>2</MedicalTendSpeed>
+      <MedicalTendQuality>12</MedicalTendQuality>
+      <!-- Learning -->
+      <GlobalLearningFactor>48</GlobalLearningFactor>
+      <LearningRateFactor>32</LearningRateFactor>
+      <!-- Economy -->
+      <ConversionPower>16</ConversionPower>
+      <DrugSellPriceImprovement>12</DrugSellPriceImprovement>
+      <AnimalProductsSellImprovement>12</AnimalProductsSellImprovement>
+      <NegotiationAbility>24</NegotiationAbility>
+      <TradePriceImprovement>12</TradePriceImprovement>
+      <SocialImpact>36</SocialImpact>
+    </statOffsets>
+  </GeneDef>
+
+  <!-- Mech -->
+  <GeneDef>
+    <displayCategory>HauStatOffsetAdjuster</displayCategory>
+    <description>No description.</description>
+    <biostatCpx>0</biostatCpx>
+    <biostatMet>-1</biostatMet>
+    <selectionWeight>0</selectionWeight>
+    <displayOrderInCategory>3</displayOrderInCategory>
+    <iconPath>UI/Icons/Genes/Gene_TotalHealing</iconPath>
+    <defName>HauStatOffsetAdjuster_Mech</defName>
+    <label>Mech stat gene</label>
+    <labelShortAdj>Mech</labelShortAdj>
+    <statOffsets>
+      <MechBandwidth>128</MechBandwidth>
+      <MechControlGroups>4</MechControlGroups>
+      <WorkSpeedGlobalOffsetMech>64</WorkSpeedGlobalOffsetMech>
+      <MechRemoteRepairDistance>12</MechRemoteRepairDistance>
+      <MechFormingSpeed>32</MechFormingSpeed>
+      <MechRemoteShieldDistance>24</MechRemoteShieldDistance>
+      <MechRemoteShieldEnergy>24</MechRemoteShieldEnergy>
+      <MechRepairSpeed>32</MechRepairSpeed>
+    </statOffsets>
+  </GeneDef>
+
+  <!-- Combat -->
+  <GeneDef>
+    <displayCategory>HauStatOffsetAdjuster</displayCategory>
+    <description>No description.</description>
+    <biostatCpx>0</biostatCpx>
+    <biostatMet>-1</biostatMet>
+    <selectionWeight>0</selectionWeight>
+    <displayOrderInCategory>4</displayOrderInCategory>
+    <iconPath>UI/Icons/Genes/Gene_StrongMeleeDamage</iconPath>
+    <defName>HauStatOffsetAdjuster_Combat</defName>
+    <label>Combat stat gene</label>
+    <labelShortAdj>Combat</labelShortAdj>
+    <statFactors>
+      <ArrestSuccessChance>10</ArrestSuccessChance>
+      <MeleeCooldownFactor>0.05</MeleeCooldownFactor>
+      <MeleeDamageFactor>24</MeleeDamageFactor>
+      <IncomingDamageFactor>0.01</IncomingDamageFactor>
+      <StaggerDurationFactor>0</StaggerDurationFactor>
+      <PawnTrapSpringChance>-1</PawnTrapSpringChance>
+      <ShootingAccuracyFactor_Long>10</ShootingAccuracyFactor_Long>
+      <ShootingAccuracyFactor_Medium>10</ShootingAccuracyFactor_Medium>
+      <ShootingAccuracyFactor_Short>10</ShootingAccuracyFactor_Short>
+      <ShootingAccuracyFactor_Touch>10</ShootingAccuracyFactor_Touch>
+      <MortarMissRadiusFactor>0.05</MortarMissRadiusFactor>
+    </statFactors>
+    <statOffsets>
+      <!-- Armor -->
+      <ArmorRating_Sharp>72</ArmorRating_Sharp>
+      <ArmorRating_Blunt>72</ArmorRating_Blunt>
+      <ArmorRating_Heat>72</ArmorRating_Heat>
+      <!-- Shooting -->
+      <VEF_VerbRangeFactor MayRequire="oskarpotocki.vanillafactionsexpanded.core">2</VEF_VerbRangeFactor>
+      <AimingDelayFactor>-0.99</AimingDelayFactor>
+      <RangedCooldownFactor>-0.99</RangedCooldownFactor>
+      <ShootingAccuracyPawn>12</ShootingAccuracyPawn>
+      <ShootingAccuracyOutdoorsDarkOffset>12</ShootingAccuracyOutdoorsDarkOffset>
+      <ShootingAccuracyOutdoorsLitOffset>12</ShootingAccuracyOutdoorsLitOffset>
+      <ShootingAccuracyIndoorsDarkOffset>12</ShootingAccuracyIndoorsDarkOffset>
+      <ShootingAccuracyIndoorsLitOffset>12</ShootingAccuracyIndoorsLitOffset>
+      <!-- Meele hit change -->
+      <MeleeArmorPenetration>16</MeleeArmorPenetration>
+      <MeleeHitChance>100</MeleeHitChance>
+      <MeleeHitChanceOutdoorsDarkOffset>12</MeleeHitChanceOutdoorsDarkOffset>
+      <MeleeHitChanceOutdoorsLitOffset>12</MeleeHitChanceOutdoorsLitOffset>
+      <MeleeHitChanceIndoorsDarkOffset>12</MeleeHitChanceIndoorsDarkOffset>
+      <MeleeHitChanceIndoorsLitOffset>12</MeleeHitChanceIndoorsLitOffset>
+      <!-- Dodge chance -->
+      <MeleeDodgeChance>100</MeleeDodgeChance>
+      <MeleeDodgeChanceOutdoorsDarkOffset>12</MeleeDodgeChanceOutdoorsDarkOffset>
+      <MeleeDodgeChanceOutdoorsLitOffset>12</MeleeDodgeChanceOutdoorsLitOffset>
+      <MeleeDodgeChanceIndoorsDarkOffset>12</MeleeDodgeChanceIndoorsDarkOffset>
+      <MeleeDodgeChanceIndoorsLitOffset>12</MeleeDodgeChanceIndoorsLitOffset>
+    </statOffsets>
+  </GeneDef>
+
+  <!-- Capmods for hearing, boold pumping -->
+  <GeneDef>
+    <displayCategory>HauStatOffsetAdjuster</displayCategory>
+    <description>No description.</description>
+    <biostatCpx>0</biostatCpx>
+    <biostatMet>-1</biostatMet>
+    <selectionWeight>0</selectionWeight>
+    <displayOrderInCategory>5</displayOrderInCategory>
+    <iconPath>UI/Icons/Genes/Gene_DeadCalm</iconPath>
+    <defName>HauStatOffsetAdjuster_Capmods</defName>
+    <label>Capmods stat gene</label>
+    <labelShortAdj>Capmods</labelShortAdj>
+    <capMods>
+      <li>
+        <capacity>Consciousness</capacity>
+        <offset>7</offset>
+      </li>
+      <li>
+        <capacity>Manipulation</capacity>
+        <offset>0.01</offset>
+      </li>
+      <li>
+        <capacity>Hearing</capacity>
+        <offset>4</offset>
+      </li>
+      <li>
+        <capacity>Eating</capacity>
+        <offset>0.05</offset>
+      </li>
+      <li>
+        <capacity>Talking</capacity>
+        <offset>0.05</offset>
+      </li>
+      <li>
+        <capacity>Breathing</capacity>
+        <offset>4</offset>
+      </li>
+      <li>
+        <capacity>Sight</capacity>
+        <offset>5</offset>
+      </li>
+      <li>
+        <capacity>BloodFiltration</capacity>
+        <offset>5</offset>
+      </li>
+      <li>
+        <capacity>BloodPumping</capacity>
+        <offset>4</offset>
+      </li>
+
+    </capMods>
+  </GeneDef>
+
+  <!-- Repair aparel -->
+  <GeneDef>
+    <displayCategory>HauStatOffsetAdjuster</displayCategory>
+    <description>This gene allow pawn to repair apparel over time.</description>
+    <biostatCpx>1</biostatCpx>
+    <biostatMet>-1</biostatMet>
+    <selectionWeight>0</selectionWeight>
+    <displayOrderInCategory>6</displayOrderInCategory>
+    <iconPath>UI/Icons/Genes/Gene_NakedSpeed</iconPath>
+    <defName>RepairSkin</defName>
+    <label>Repair Skin</label>
+    <labelShortAdj>RepairSkin</labelShortAdj>
+    <geneClass>HauStatOffsetAdjuster.Gene_RepairSkin</geneClass>
+    <minAgeActive>0</minAgeActive>
+  </GeneDef>
+
+  <!-- Hemogene -->
+  <GeneDef>
+    <displayCategory>HauStatOffsetAdjuster</displayCategory>
+    <description>No description.</description>
+    <biostatCpx>0</biostatCpx>
+    <biostatMet>-1</biostatMet>
+    <selectionWeight>0</selectionWeight>
+    <displayOrderInCategory>7</displayOrderInCategory>
+    <iconPath>UI/Icons/Genes/Gene_Superclotting</iconPath>
+    <defName>HauStatOffsetAdjuster_Hemogene</defName>
+    <label>Hemogene stat gene</label>
+    <labelShortAdj>Hemogene</labelShortAdj>
+    <statOffsets>
+      <HemogenGainFactor>12</HemogenGainFactor>
+    </statOffsets>
+  </GeneDef>
+
+  <!-- Metabolic -->
+  <GeneDef>
+    <displayCategory>HauStatOffsetAdjuster</displayCategory>
+    <defName>HauStatOffsetAdjusterMetabolic50</defName>
+    <label>50 Metabolic Adjustment</label>
+    <labelShortAdj>MetAdj50</labelShortAdj>
+    <description>No description.</description>
+    <iconPath>UI/Icons/Genes/Gene_Sanguine</iconPath>
+    <displayOrderInCategory>99</displayOrderInCategory>
+    <biostatCpx>0</biostatCpx>
+    <biostatMet>60</biostatMet>
+  </GeneDef>
+
+  <GeneDef>
+    <displayCategory>HauStatOffsetAdjuster</displayCategory>
+    <defName>HauStatOffsetAdjusterMetabolic30</defName>
+    <label>30 Metabolic Adjustment</label>
+    <labelShortAdj>MetAdj30</labelShortAdj>
+    <description>No description.</description>
+    <iconPath>UI/Icons/Genes/Gene_Sanguine</iconPath>
+    <displayOrderInCategory>100</displayOrderInCategory>
+    <biostatCpx>0</biostatCpx>
+    <biostatMet>50</biostatMet>
+  </GeneDef>
+
+  <GeneDef>
+    <displayCategory>HauStatOffsetAdjuster</displayCategory>
+    <defName>HauStatOffsetAdjusterMetabolic20</defName>
+    <label>20 Metabolic Adjustment</label>
+    <labelShortAdj>MetAdj20</labelShortAdj>
+    <description>No description.</description>
+    <iconPath>UI/Icons/Genes/Gene_Sanguine</iconPath>
+    <displayOrderInCategory>101</displayOrderInCategory>
+    <biostatCpx>0</biostatCpx>
+    <biostatMet>30</biostatMet>
+  </GeneDef>
+
+  <GeneDef>
+    <displayCategory>HauStatOffsetAdjuster</displayCategory>
+    <defName>HauStatOffsetAdjusterMetabolic10</defName>
+    <label>10 Metabolic Adjustment</label>
+    <labelShortAdj>MetAdj10</labelShortAdj>
+    <description>No description.</description>
+    <iconPath>UI/Icons/Genes/Gene_Sanguine</iconPath>
+    <displayOrderInCategory>102</displayOrderInCategory>
+    <biostatCpx>0</biostatCpx>
+    <biostatMet>10</biostatMet>
+  </GeneDef>
+
+  <GeneDef>
+    <displayCategory>HauStatOffsetAdjuster</displayCategory>
+    <defName>HauStatOffsetAdjusterMetabolic5</defName>
+    <label>5 Metabolic Adjustment</label>
+    <labelShortAdj>MetAdj5</labelShortAdj>
+    <description>No description.</description>
+    <iconPath>UI/Icons/Genes/Gene_Sanguine</iconPath>
+    <displayOrderInCategory>103</displayOrderInCategory>
+    <biostatCpx>0</biostatCpx>
+    <biostatMet>5</biostatMet>
+  </GeneDef>
+
+
+  <GeneDef>
+    <displayCategory>HauStatOffsetAdjuster</displayCategory>
+    <defName>HauStatOffsetAdjusterMetabolic3</defName>
+    <label>3 Metabolic Adjustment</label>
+    <labelShortAdj>MetAdj3</labelShortAdj>
+    <description>No description.</description>
+    <iconPath>UI/Icons/Genes/Gene_Sanguine</iconPath>
+    <displayOrderInCategory>104</displayOrderInCategory>
+    <biostatCpx>0</biostatCpx>
+    <biostatMet>3</biostatMet>
+  </GeneDef>
+
+  <GeneDef>
+    <displayCategory>HauStatOffsetAdjuster</displayCategory>
+    <defName>HauStatOffsetAdjusterMetabolic2</defName>
+    <label>2 Metabolic Adjustment</label>
+    <labelShortAdj>MetAdj2</labelShortAdj>
+    <description>No description.</description>
+    <iconPath>UI/Icons/Genes/Gene_Sanguine</iconPath>
+    <displayOrderInCategory>105</displayOrderInCategory>
+    <biostatCpx>0</biostatCpx>
+    <biostatMet>2</biostatMet>
+  </GeneDef>
+
+  <GeneDef>
+    <displayCategory>HauStatOffsetAdjuster</displayCategory>
+    <defName>HauStatOffsetAdjusterMetabolic1</defName>
+    <label>1 Metabolic Adjustment</label>
+    <labelShortAdj>MetAdj1</labelShortAdj>
+    <description>No description.</description>
+    <iconPath>UI/Icons/Genes/Gene_Sanguine</iconPath>
+    <displayOrderInCategory>106</displayOrderInCategory>
+    <biostatCpx>0</biostatCpx>
+    <biostatMet>1</biostatMet>
+  </GeneDef>
+</Defs>

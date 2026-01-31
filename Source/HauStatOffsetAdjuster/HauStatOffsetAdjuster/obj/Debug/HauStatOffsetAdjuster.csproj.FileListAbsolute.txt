@@ -1,0 +1,4 @@
+C:\Users\Doa\Desktop\Game\Rimworld\RimWorld.v1.5.4297\Mods\HauStatOffsetGene\Assemblies\HauStatOffsetAdjuster.dll
+C:\Users\Doa\Desktop\Game\Rimworld\RimWorld.v1.5.4297\Mods\HauStatOffsetGene\Source\HauStatOffsetAdjuster\HauStatOffsetAdjuster\obj\Debug\HauStatOffsetAdjuster.csproj.AssemblyReference.cache
+C:\Users\Doa\Desktop\Game\Rimworld\RimWorld.v1.5.4297\Mods\HauStatOffsetGene\Source\HauStatOffsetAdjuster\HauStatOffsetAdjuster\obj\Debug\HauStatOffsetAdjuster.csproj.CoreCompileInputs.cache
+C:\Users\Doa\Desktop\Game\Rimworld\RimWorld.v1.5.4297\Mods\HauStatOffsetGene\Source\HauStatOffsetAdjuster\HauStatOffsetAdjuster\obj\Debug\HauStatOffsetAdjuster.dll

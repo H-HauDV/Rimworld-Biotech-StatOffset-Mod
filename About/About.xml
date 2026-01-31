@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ModMetaData>
+
+	<name>Stat offset adjuster</name>
+	<author>Hau</author>
+	<supportedVersions>
+		<li>1.5</li>
+	</supportedVersions>
+	<packageId>HauStatOffsetAdjuster</packageId>
+
+	<description>
+		Stat offset adjuster
+	</description>
+
+</ModMetaData>
